@@ -6,8 +6,8 @@ node_modules/
 src/config/*.tmp
 src/config/env.js
 /index_prod.html
-/index.html
-dist
-dist/*
+# /index.html
+# dist
+# dist/*
 /yarn.lock
 /yarn-error.log
