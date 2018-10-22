@@ -6,7 +6,8 @@ tbody {
 .left {
     display: flex;
     flex-direction: column;
-    margin: 16px;
+    margin: 16px 8px 16px 16px;
+    width: 50%;
 }
 
 .left > div {
@@ -20,19 +21,30 @@ tbody {
 }
 
 .right {
-    width: 158px;
-    height: 221px;
+    width: 50%;
     background-color: #efeff3;
-    margin-top: 16px;
+    margin: 16px 16px 16px 8px;
+}
+
+img {
+    width: 100%;
 }
 </style>
 <template>
     <tbody>
         <div class="left">
-            <div>1</div>
-            <div>2</div>
+            <div>
+                <img src="../images/ad2-1.jpg"/>
+            </div>
+            <div>
+                <img src="../images/ad2-2.jpg"/>
+            </div>
         </div>
-        <div class="right">3</div>
+        <div class="right">
+            <div>
+                <img src="../images/ad2-3.jpg"/>
+            </div>
+        </div>
     </tbody>
 </template>
 <script>

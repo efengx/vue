@@ -8,6 +8,10 @@ thead {
     height: 138px;
     background-color: #efeff3;
     display: block;
+    overflow: hidden;
+}
+thead > img {
+    width: 138px;
 }
 
 tbody {
@@ -37,21 +41,22 @@ s {
 <template>
     <div class="details">
         <thead>
-            img
+            <img :src="attributes.image"/>
         </thead>
         <tbody>
-            <div>Apple Watch</div>
+            <div>{{attributes.product_name}}</div>
             <div>智能运动手表 Hermes</div>
         </tbody>
         <tfoot>
             <span class="tag">3折</span>
-            <span class="pric">¥850</span>
-            <s>¥1250</s>
+            <span class="pric">{{attributes.price_discounted | pric}}</span>
+            <s>{{attributes.price_original | pric }}</s>
         </tfoot>
     </div>
 </template>
 <script>
 export default {
-    componentName: 'fx-dis-det'     
+    componentName: 'fx-dis-det',
+    props: ['attributes']
 }
 </script>

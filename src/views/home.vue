@@ -10,10 +10,17 @@
     }
 
     hr {
-        margin-top: 9px;
         background-color: rgba(0, 0, 0, 0.1);
         border: 0;
         height: 1px;
+    }
+
+    hr.top {
+        margin-top: 9px;
+    }
+
+    hr.fine {
+        height: 0.5px;
     }
 
     header {
@@ -80,6 +87,10 @@
         line-height: 50px;
     }
 
+    .push {
+        height: 58px;
+    }
+
     footer ul {
         display: flex;
     }
@@ -99,13 +110,14 @@
                     <Icon type="ios-search" size="25" />
                 </span>
             </header>
+            <hr>
             <nav>
                 <ul>
                     <li 
-                        :key="item.id"
-                        v-for="item in items" 
-                        v-bind:class="{active: (showItemIndex == item.id)}">
-                        {{item.attributes.name_cn}}
+                        :key="categorie.id"
+                        v-for="categorie in categories" 
+                        v-bind:class="{active: (showItemIndex == categorie.id)}">
+                        {{categorie.attributes.name_cn}}
                     </li>
                 </ul>
             </nav>
@@ -118,13 +130,16 @@
             <section>
                 <fx-main-ad></fx-main-ad>
             </section>
-            <hr>
+            <hr class="top">
             <section>
                 <fx-main-ad2></fx-main-ad2>
             </section>
+            <hr>
             <div class="push"></div>
         </div>
+        
         <footer>
+            <hr class="fine">
             <ul>
                 <li><Icon type="md-compass" size="25" /></li>
                 <li><Icon type="ios-contact" size="25" /></li>
@@ -146,11 +161,13 @@ export default {
         'fx-main-ad2': fxMainAd2
     },
     created () {
-        // 获取导航栏
+        // 获取分类
         this.$store.dispatch('switch_categories');
+        // 获取最新3折
+        this.$store.dispatch('switch_discount30');
     },
     computed: {
-        items: {
+        categories: {
             get() {
                 return this.$store.state.home.categories
             }

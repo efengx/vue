@@ -7,11 +7,15 @@ import App from './app.vue';
 import axios from 'axios';
 import vuex from 'vuex';
 import stores from './stores';
+import * as filters from './libs/filters';
 
 import 'iview/dist/styles/iview.css';
 import './theme/index.less';
 
-
+// 加载全局过滤器
+Object.keys(filters).forEach(key => {
+    Vue.filter(key, filters[key])
+});
 Vue.use(vuex);
 Vue.use(VueRouter);
 Vue.use(iView);

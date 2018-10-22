@@ -32,12 +32,12 @@ ul li {
     <div>
         <thead>
             <div>最新3折以下</div>
-            <a>查看全部</a>
+            <router-link to="feed">查看全部</router-link>
         </thead>
         <tbody>
             <ul>
-                <li v-for="item in items" :key="item.id">
-                    <fx-dis-det></fx-dis-det>
+                <li v-for="product in discount30" :key="product.id">
+                    <fx-dis-det :attributes="product.attributes"></fx-dis-det>
                 </li>
             </ul>
         </tbody>
@@ -51,14 +51,16 @@ export default {
     components: {
         'fx-dis-det': fxDiscountDetails
     },
-    data () {
-        return {
-            items: [
-                {id: 1},
-                {id: 2},
-                {id: 3}
-            ]
+    computed: {
+        discount30: {
+            get() {
+                return this.$store.state.home.discount30
+            }
         }
+    },
+    created () {
+        // 获取最新3折
+        this.$store.dispatch('switch_discount30');
     }
 }
 </script>

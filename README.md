@@ -26,7 +26,7 @@ views       -- page files
 styles      -- global style
 theme       -- iview theme cove file
 template    -- index template page file
-libs        -- js util package
+libs        -- js util package and global filters file
 images      -- static images
 config      -- project build config file
 page        -- temp file ( Will delete )

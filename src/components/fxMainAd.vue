@@ -4,18 +4,31 @@ tbody {
 }
 
 tbody > div {
-    width: 183px;
-    height: 87px;
-    background-color: #efeff3;
+    width: 50%;
+    overflow: hidden;
 }
 tbody > div:first-child {
-    margin-right: 9px;
+    padding-right: 4.5px;
+}
+tbody > div:nth-child(2) {
+    padding-left: 4.5px;
+}
+tbody > div > div > img {
+    width: 100%;
 }
 </style>
 <template>
     <tbody>
-        <div></div>
-        <div></div>
+        <div>
+            <div>
+                <img src="../images/ad1.jpg"/>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="../images/ad2.jpg"/>
+            </div>
+        </div>
     </tbody>
 </template>
 <script>

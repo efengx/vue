@@ -1,12 +1,10 @@
 <style scoped lang="less">
     .demo-carousel {
         text-align: center;
-        line-height: 147px;
-        background-color: #000;
     }
 
     img {
-        height: 147px;
+        height: auto;
         width: 100%;
     }
 </style>
@@ -14,7 +12,7 @@
     <Carousel v-model="value1" >
         <CarouselItem v-for="img in imgs" :key="img.id">
             <div class="demo-carousel">
-                <img :src="img.url" alt="图片"/>
+                <img src="../images/carousel.jpg" alt="图片"/>
             </div>
         </CarouselItem>
     </Carousel>

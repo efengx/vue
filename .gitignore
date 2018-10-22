@@ -7,5 +7,7 @@ src/config/*.tmp
 src/config/env.js
 /index_prod.html
 /index.html
-# dist
-# dist/*
+dist
+dist/*
+/yarn.lock
+/yarn-error.log
