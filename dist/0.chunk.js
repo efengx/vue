@@ -4,19 +4,19 @@ webpackJsonp([0],Array(53).concat([
 
 
 /* styles */
-__webpack_require__(63)
+__webpack_require__(66)
 
 var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(61),
   /* template */
-  __webpack_require__(82),
+  __webpack_require__(85),
   /* scopeId */
-  "data-v-19f4574e",
+  "data-v-78fd8b1a",
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/ofengx/Desktop/Data/fx-pro/upwork/allan/iview-project/src/views/home.vue"
+Component.options.__file = "/Users/xiaoqing/Projects/halfshop/src/views/home.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] home.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -27,9 +27,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-19f4574e", Component.options)
+    hotAPI.createRecord("data-v-78fd8b1a", Component.options)
   } else {
-    hotAPI.reload("data-v-19f4574e", Component.options)
+    hotAPI.reload("data-v-78fd8b1a", Component.options)
   }
 })()}
 
@@ -528,13 +528,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 63 */
+/* 63 */,
+/* 64 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 64 */,
 /* 65 */
 /***/ (function(module, exports) {
 
@@ -601,19 +601,19 @@ module.exports = __webpack_require__.p + "7a0525f1f04039c6d0cffab5c9a965ad.jpg";
 
 
 /* styles */
-__webpack_require__(62)
+__webpack_require__(67)
 
 var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(55),
   /* template */
-  __webpack_require__(81),
+  __webpack_require__(86),
   /* scopeId */
-  "data-v-19331926",
+  "data-v-86aad1b0",
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/ofengx/Desktop/Data/fx-pro/upwork/allan/iview-project/src/components/fxCarousel.vue"
+Component.options.__file = "/Users/xiaoqing/Projects/halfshop/src/components/fxCarousel.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] fxCarousel.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -624,9 +624,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-19331926", Component.options)
+    hotAPI.createRecord("data-v-86aad1b0", Component.options)
   } else {
-    hotAPI.reload("data-v-19331926", Component.options)
+    hotAPI.reload("data-v-86aad1b0", Component.options)
   }
 })()}
 
@@ -639,19 +639,19 @@ module.exports = Component.exports
 
 
 /* styles */
-__webpack_require__(68)
+__webpack_require__(65)
 
 var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(56),
   /* template */
-  __webpack_require__(87),
+  __webpack_require__(84),
   /* scopeId */
-  "data-v-8e5d5278",
+  "data-v-65ab9aa9",
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/ofengx/Desktop/Data/fx-pro/upwork/allan/iview-project/src/components/fxDiscountDetails.vue"
+Component.options.__file = "/Users/xiaoqing/Projects/halfshop/src/components/fxDiscountDetails.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] fxDiscountDetails.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -662,9 +662,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-8e5d5278", Component.options)
+    hotAPI.createRecord("data-v-65ab9aa9", Component.options)
   } else {
-    hotAPI.reload("data-v-8e5d5278", Component.options)
+    hotAPI.reload("data-v-65ab9aa9", Component.options)
   }
 })()}
 
@@ -677,19 +677,19 @@ module.exports = Component.exports
 
 
 /* styles */
-__webpack_require__(66)
+__webpack_require__(68)
 
 var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(57),
   /* template */
-  __webpack_require__(85),
+  __webpack_require__(87),
   /* scopeId */
-  "data-v-3da6398c",
+  "data-v-8727f072",
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/ofengx/Desktop/Data/fx-pro/upwork/allan/iview-project/src/components/fxDiscountList.vue"
+Component.options.__file = "/Users/xiaoqing/Projects/halfshop/src/components/fxDiscountList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] fxDiscountList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -700,9 +700,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3da6398c", Component.options)
+    hotAPI.createRecord("data-v-8727f072", Component.options)
   } else {
-    hotAPI.reload("data-v-3da6398c", Component.options)
+    hotAPI.reload("data-v-8727f072", Component.options)
   }
 })()}
 
@@ -715,19 +715,19 @@ module.exports = Component.exports
 
 
 /* styles */
-__webpack_require__(67)
+__webpack_require__(62)
 
 var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(58),
   /* template */
-  __webpack_require__(86),
+  __webpack_require__(81),
   /* scopeId */
-  "data-v-59e96109",
+  "data-v-1bc93784",
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/ofengx/Desktop/Data/fx-pro/upwork/allan/iview-project/src/components/fxMainAd.vue"
+Component.options.__file = "/Users/xiaoqing/Projects/halfshop/src/components/fxMainAd.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] fxMainAd.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -738,9 +738,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-59e96109", Component.options)
+    hotAPI.createRecord("data-v-1bc93784", Component.options)
   } else {
-    hotAPI.reload("data-v-59e96109", Component.options)
+    hotAPI.reload("data-v-1bc93784", Component.options)
   }
 })()}
 
@@ -753,19 +753,19 @@ module.exports = Component.exports
 
 
 /* styles */
-__webpack_require__(65)
+__webpack_require__(64)
 
 var Component = __webpack_require__(21)(
   /* script */
   __webpack_require__(59),
   /* template */
-  __webpack_require__(84),
+  __webpack_require__(83),
   /* scopeId */
-  "data-v-394b2d0e",
+  "data-v-5d75625e",
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/ofengx/Desktop/Data/fx-pro/upwork/allan/iview-project/src/components/fxMainAd2.vue"
+Component.options.__file = "/Users/xiaoqing/Projects/halfshop/src/components/fxMainAd2.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] fxMainAd2.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -776,9 +776,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-394b2d0e", Component.options)
+    hotAPI.createRecord("data-v-5d75625e", Component.options)
   } else {
-    hotAPI.reload("data-v-394b2d0e", Component.options)
+    hotAPI.reload("data-v-5d75625e", Component.options)
   }
 })()}
 
@@ -790,37 +790,87 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('Carousel', {
-    model: {
-      value: (_vm.value1),
-      callback: function($$v) {
-        _vm.value1 = $$v
-      },
-      expression: "value1"
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('tbody', [_c('div', [_c('div', [_c('img', {
+    attrs: {
+      "src": __webpack_require__(69)
     }
-  }, _vm._l((_vm.imgs), function(img) {
-    return _c('CarouselItem', {
-      key: img.id
-    }, [_c('div', {
-      staticClass: "demo-carousel"
-    }, [_c('img', {
-      attrs: {
-        "src": __webpack_require__(74),
-        "alt": "图片"
-      }
-    })])])
-  }))
+  })])]), _vm._v(" "), _c('div', [_c('div', [_c('img', {
+    attrs: {
+      "src": __webpack_require__(73)
+    }
+  })])])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-1bc93784", module.exports)
+  }
+}
+
+/***/ }),
+/* 82 */,
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('tbody', [_c('div', {
+    staticClass: "left"
+  }, [_c('div', [_c('img', {
+    attrs: {
+      "src": __webpack_require__(70)
+    }
+  })]), _vm._v(" "), _c('div', [_c('img', {
+    attrs: {
+      "src": __webpack_require__(71)
+    }
+  })])]), _vm._v(" "), _c('div', {
+    staticClass: "right"
+  }, [_c('div', [_c('img', {
+    attrs: {
+      "src": __webpack_require__(72)
+    }
+  })])])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-5d75625e", module.exports)
+  }
+}
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "details"
+  }, [_c('thead', [_c('img', {
+    attrs: {
+      "src": _vm.attributes.image
+    }
+  })]), _vm._v(" "), _c('tbody', [_c('div', [_vm._v(_vm._s(_vm.attributes.product_name))]), _vm._v(" "), _c('div', [_vm._v("智能运动手表 Hermes")])]), _vm._v(" "), _c('tfoot', [_c('span', {
+    staticClass: "tag"
+  }, [_vm._v("3折")]), _vm._v(" "), _c('span', {
+    staticClass: "pric"
+  }, [_vm._v(_vm._s(_vm._f("pric")(_vm.attributes.price_discounted)))]), _vm._v(" "), _c('s', [_vm._v(_vm._s(_vm._f("pric")(_vm.attributes.price_original)))])])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-19331926", module.exports)
+     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-65ab9aa9", module.exports)
   }
 }
 
 /***/ }),
-/* 82 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -864,46 +914,46 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-19f4574e", module.exports)
+     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-78fd8b1a", module.exports)
   }
 }
 
 /***/ }),
-/* 83 */,
-/* 84 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('tbody', [_c('div', {
-    staticClass: "left"
-  }, [_c('div', [_c('img', {
-    attrs: {
-      "src": __webpack_require__(70)
+  return _c('Carousel', {
+    model: {
+      value: (_vm.value1),
+      callback: function($$v) {
+        _vm.value1 = $$v
+      },
+      expression: "value1"
     }
-  })]), _vm._v(" "), _c('div', [_c('img', {
-    attrs: {
-      "src": __webpack_require__(71)
-    }
-  })])]), _vm._v(" "), _c('div', {
-    staticClass: "right"
-  }, [_c('div', [_c('img', {
-    attrs: {
-      "src": __webpack_require__(72)
-    }
-  })])])])
-}]}
+  }, _vm._l((_vm.imgs), function(img) {
+    return _c('CarouselItem', {
+      key: img.id
+    }, [_c('div', {
+      staticClass: "demo-carousel"
+    }, [_c('img', {
+      attrs: {
+        "src": __webpack_require__(74),
+        "alt": "图片"
+      }
+    })])])
+  }))
+},staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-394b2d0e", module.exports)
+     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-86aad1b0", module.exports)
   }
 }
 
 /***/ }),
-/* 85 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -925,57 +975,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-3da6398c", module.exports)
-  }
-}
-
-/***/ }),
-/* 86 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('tbody', [_c('div', [_c('div', [_c('img', {
-    attrs: {
-      "src": __webpack_require__(69)
-    }
-  })])]), _vm._v(" "), _c('div', [_c('div', [_c('img', {
-    attrs: {
-      "src": __webpack_require__(73)
-    }
-  })])])])
-}]}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-59e96109", module.exports)
-  }
-}
-
-/***/ }),
-/* 87 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "details"
-  }, [_c('thead', [_c('img', {
-    attrs: {
-      "src": _vm.attributes.image
-    }
-  })]), _vm._v(" "), _c('tbody', [_c('div', [_vm._v(_vm._s(_vm.attributes.product_name))]), _vm._v(" "), _c('div', [_vm._v("智能运动手表 Hermes")])]), _vm._v(" "), _c('tfoot', [_c('span', {
-    staticClass: "tag"
-  }, [_vm._v("3折")]), _vm._v(" "), _c('span', {
-    staticClass: "pric"
-  }, [_vm._v(_vm._s(_vm._f("pric")(_vm.attributes.price_discounted)))]), _vm._v(" "), _c('s', [_vm._v(_vm._s(_vm._f("pric")(_vm.attributes.price_original)))])])])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-8e5d5278", module.exports)
+     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-8727f072", module.exports)
   }
 }
 

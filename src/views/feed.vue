@@ -1,4 +1,4 @@
-<style lang="less" scoped>
+<style lang="less">
   .feed-container {
     padding: 16px 0 ;
     .feed-header {
