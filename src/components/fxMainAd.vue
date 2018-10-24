@@ -1,20 +1,21 @@
 <style lang="less" scoped>
 tbody {
     display: flex;
-}
-
-tbody > div {
-    width: 50%;
-    overflow: hidden;
-}
-tbody > div:first-child {
-    padding-right: 4.5px;
-}
-tbody > div:nth-child(2) {
-    padding-left: 4.5px;
-}
-tbody > div > div > img {
-    width: 100%;
+    margin: 11px 0;
+    > div {
+        width: 50%;
+        overflow: hidden;
+        div > img {
+            width: 100%;
+            display: flex;
+        }
+    }
+    > div:first-child {
+        padding-right: 4.5px;
+    }
+    > div:nth-child(2) {
+        padding-left: 4.5px;
+    }
 }
 </style>
 <template>

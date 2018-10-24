@@ -8,6 +8,7 @@ import axios from 'axios';
 import vuex from 'vuex';
 import stores from './stores';
 import * as filters from './libs/filters';
+import { basePath } from './config/basePath';
 
 import 'iview/dist/styles/iview.css';
 import './theme/index.less';
@@ -26,7 +27,9 @@ const store = new vuex.Store(stores);
 
 // 路由配置
 const RouterConfig = {
-    mode: 'history',
+    // default hash model
+    // mode: 'history',
+    // base: basePath(),
     routes: Routers
 };
 const router = new VueRouter(RouterConfig);

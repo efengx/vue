@@ -2,103 +2,141 @@
     .wrapper {
         height: 100%;
         overflow: hidden;
-    }
+        .scroll {
+            height: 100%;
+            overflow-x: scroll;
+            header {
+                display: flex;
+                justify-content: space-between;
+                line-height: 50px;
+                height: 50px;
+                padding-left: 12px;
+                > div {
+                    > span:first-child {
+                        font-family: ALoveofThunder;
+                        font-size: 26px;
+                        color: #2D2D2D;
+                        letter-spacing: 0;
+                        font-weight: 900;
+                    }
+                    > span:nth-child(2) {
+                        font-size: 17px;
+                        color: #000000;
+                        letter-spacing: 0;
+                    }
+                }
+                img {
+                    width: 25px;
+                    display: block;
+                    margin: 13px 12px;
+                }
+            }
 
-    .scroll {
-        height: 100%;
-        overflow-x: scroll;
-    }
+            nav {
+                overflow: hidden;
+                ul {
+                    display: flex;
+                    overflow-y: scroll;
+                    height: 46px;
+                    li {
+                        list-style: none;
+                        white-space: nowrap;
 
-    hr {
-        background-color: rgba(0, 0, 0, 0.1);
-        border: 0;
-        height: 1px;
-    }
+                        padding: 12px;
+                        font-size: 15px;
+                        color: #8C8C8C;
+                        font-family: PingFangSC-Regular;
+                        letter-spacing: -0.36px;
+                        line-height: 22px;
+                    }
+                    li.active {
+                        color: #5767FF;
+                    }
+                }
+            }
+        }
+        hr {
+            background-color: rgba(0, 0, 0, 0.1);
+            border: 0;
+            height: 1px;
+        }
+        footer {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            background-color: #fff;
+            ul {
+                display: flex;
+                height: 49px;
+                > li {
+                    flex-grow: 1;
+                    text-align: center;
+                    list-style: none;
+                    
+                }
+                > li > i {
+                    display:block;
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 auto;
+                    margin-top: 5px;
+                }
+                >li:first-child > i {
+                    background: url('../images/icon/home@3x.png') no-repeat;
+                    background-size: 40px 40px;
+                }
+                >li:nth-child(2) > i {
+                    background: url('../images/icon/category@3x.png') no-repeat;
+                    background-size: 40px 40px;
+                }
+                >li:nth-child(3) > i {
+                    background: url('../images/icon/shop@3x.png') no-repeat;
+                    background-size: 40px 40px;
+                }
+                >li:nth-child(4) > i {
+                    background: url('../images/icon/order@3x.png') no-repeat;
+                    background-size: 40px 40px;
+                }
+                >li:nth-child(5) > i {
+                    background: url('../images/icon/my@3x.png') no-repeat;
+                    background-size: 40px 40px;
+                }
+                // 活动
+                >li.active:first-child > i {
+                    background: url('../images/icon/home_active@3x.png') no-repeat;
+                    background-size: 40px 40px;
+                }
+                >li.active:nth-child(2) > i {
+                    background: url('../images/icon/category_active@3x.png') no-repeat;
+                    background-size: 40px 40px;
+                }
+                >li.active:nth-child(3) > i {
+                    background: url('../images/icon/shop_active@3x.png') no-repeat;
+                    background-size: 40px 40px;
+                }
+                >li.active:nth-child(4) > i {
+                    background: url('../images/icon/order_active@3x.png') no-repeat;
+                    background-size: 40px 40px;
+                }
+                >li.active:nth-child(5) > i {
+                    background: url('../images/icon/my_active@3x.png') no-repeat;
+                    background-size: 40px 40px;
+                }
+            }
+        }
 
-    hr.top {
-        margin-top: 9px;
-    }
+        hr.fine {
+            height: .5px;
+        }
+        footer, .push {
+            height: 50px;
+            line-height: 50px;
+        }
 
-    hr.fine {
-        height: 0.5px;
-    }
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        line-height: 50px;
-        padding: 0px 12px;
-    }
-
-    header > div > span:first-child {
-        font-family: ALoveofThunder;
-        font-size: 26px;
-        color: #2D2D2D;
-        letter-spacing: 0;
-        font-weight: 900;
-    }
-
-    header > div > span:nth-child(2) {
-        font-size: 17px;
-        color: #000000;
-        letter-spacing: 0;
-    }
-
-    nav {
-        overflow: hidden;
-    }
-
-    nav ul {
-        display: flex;
-        overflow-y: scroll;
-        height: 46px;
-    }
-
-    nav ul li.active {
-        color: #5767FF;
-    }
-
-    // ul::-webkit-scrollbar { 
-    //     width: 0 !important 
-    // }
-
-    nav ul li {
-        list-style: none;
-        white-space: nowrap;
-
-        padding: 12px;
-        font-size: 15px;
-        color: #8C8C8C;
-        font-family: PingFangSC-Regular;
-        letter-spacing: -0.36px;
-        line-height: 22px;
-    }
-
-    footer {
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        background-color: #fff;
-    }
-
-    footer, .push {
-        height: 50px;
-        line-height: 50px;
-    }
-
-    .push {
-        height: 58px;
-    }
-
-    footer ul {
-        display: flex;
-    }
-
-    footer ul li {
-        flex-grow: 1;
-        text-align: center;
-        list-style: none;
+        .push {
+            height: 58px;
+        }
     }
 </style>
 <template>
@@ -107,17 +145,18 @@
             <header>
                 <div><span>LOGO.</span><span>闯客</span></div>
                 <span>
-                    <Icon type="ios-search" size="25" />
+                    <img src="../images/search-icon@3x.png"/>
                 </span>
             </header>
             <hr>
             <nav>
                 <ul>
                     <li 
-                        :key="categorie.id"
-                        v-for="categorie in categories" 
-                        v-bind:class="{active: (showItemIndex == categorie.id)}">
-                        {{categorie.attributes.name_cn}}
+                        @click="onSelect(category.id)"
+                        :key="category.id"
+                        v-for="category in categories" 
+                        :class="{active: (categoryId === category.id)}">
+                        {{category.attributes.name_cn}}
                     </li>
                 </ul>
             </nav>
@@ -127,10 +166,15 @@
             <section>
                 <fx-dis-list></fx-dis-list>
             </section>
+            <hr>
             <section>
                 <fx-main-ad></fx-main-ad>
             </section>
-            <hr class="top">
+            <hr>
+            <section>
+                <fx-recom-list></fx-recom-list>
+            </section>
+            <hr>
             <section>
                 <fx-main-ad2></fx-main-ad2>
             </section>
@@ -141,8 +185,11 @@
         <footer>
             <hr class="fine">
             <ul>
-                <li><Icon type="md-compass" size="25" /></li>
-                <li><Icon type="ios-contact" size="25" /></li>
+                <li class="active"><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
+                <li><i></i></li>
             </ul>
         </footer>
     </div>
@@ -152,30 +199,35 @@ import fxCarousel from '../components/fxCarousel.vue';
 import fxDiscountList from '../components/fxDiscountList.vue';
 import fxMainAd from '../components/fxMainAd.vue';
 import fxMainAd2 from '../components/fxMainAd2.vue';
+import fxRecommendList from '../components/fxRecommendList.vue';
 
 export default {
     components: {
         'fx-carousel': fxCarousel,
         'fx-dis-list': fxDiscountList,
         'fx-main-ad': fxMainAd,
-        'fx-main-ad2': fxMainAd2
+        'fx-main-ad2': fxMainAd2,
+        'fx-recom-list': fxRecommendList
     },
     created () {
-        // 获取分类
-        this.$store.dispatch('switch_categories');
-        // 获取最新3折
-        this.$store.dispatch('switch_discount30');
+        // 初始化首页
+        this.$store.dispatch('switch_home');
     },
     computed: {
+        categoryId: {
+            get() {
+                return this.$store.state.home.categoryId
+            }
+        },
         categories: {
             get() {
                 return this.$store.state.home.categories
             }
-        }
+        },
     },
-    data () {
-        return {
-            showItemIndex: 1
+    methods: {
+        onSelect(id) {
+            this.$store.dispatch('switch_discount30', id);
         }
     }
 }

@@ -4,27 +4,27 @@ thead {
     display: flex;
     justify-content: space-between;
     padding: 25px 16px 0 16px;
+    > div {
+        color: #2D2D2D;
+        font-size: 17px;
+    }
+    > a {
+        color: #8C8C8C;
+        font-size: 13px;
+        line-height: 25px;
+    }
 }
-thead > div {
-    color: #2D2D2D;
-    font-size: 17px;
-}
-
-thead > a {
-    color: #8C8C8C;
-    font-size: 13px;
-}
-
 tbody {
     overflow: hidden;
     display: block;
-}
-ul {
-    display: flex;
-    overflow-y: scroll;
-}
-ul li {
-    list-style: none;
+    ul {
+        display: flex;
+        overflow-x: scroll;
+        min-height: 280px;
+        li {
+            list-style: none;
+        }
+    }
 }
 </style>
 

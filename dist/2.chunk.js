@@ -1,9 +1,9 @@
 webpackJsonp([2],{
 
-/***/ 54:
+/***/ 55:
 /***/ (function(module, exports, __webpack_require__) {
 
-var Component = __webpack_require__(21)(
+var Component = __webpack_require__(22)(
   /* script */
   null,
   /* template */
@@ -13,7 +13,7 @@ var Component = __webpack_require__(21)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/xiaoqing/Projects/halfshop/src/views/searchBar.vue"
+Component.options.__file = "/Users/ofengx/Desktop/Data/fx-pro/upwork/allan/halfshop/src/views/searchBar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 module.exports = Component.exports

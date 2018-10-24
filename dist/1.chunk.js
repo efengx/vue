@@ -1,23 +1,23 @@
 webpackJsonp([1],{
 
-/***/ 50:
+/***/ 51:
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(63)
+__webpack_require__(66)
 
-var Component = __webpack_require__(21)(
+var Component = __webpack_require__(22)(
   /* script */
-  __webpack_require__(60),
+  __webpack_require__(63),
   /* template */
-  __webpack_require__(82),
+  __webpack_require__(91),
   /* scopeId */
-  "data-v-55e8989c",
+  null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/xiaoqing/Projects/halfshop/src/views/feed.vue"
+Component.options.__file = "/Users/ofengx/Desktop/Data/fx-pro/upwork/allan/halfshop/src/views/feed.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] feed.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -39,7 +39,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 60:
+/***/ 63:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -428,21 +428,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 63:
+/***/ 66:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 75:
+/***/ 82:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "8daf6115f4151a86af563b8ab5d4bcae.png";
 
 /***/ }),
 
-/***/ 82:
+/***/ 91:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -587,7 +587,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "feed-item-image"
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(75),
+      "src": __webpack_require__(82),
       "alt": ""
     }
   }), _vm._v(" "), _c('i')])
